@@ -1,0 +1,2755 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 3/5/2026 2:22:08 PM.
+      
+      Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.94
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/PC Connectivity Solution/lld-link.com"
+      - "C:/Program Files (x86)/PC Connectivity Solution/lld-link.exe"
+      - "C:/Program Files (x86)/PC Connectivity Solution/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/lld-link.com"
+    found: "C:/Program Files/CodeBlocks/MinGW/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/PC Connectivity Solution/mt.com"
+      - "C:/Program Files (x86)/PC Connectivity Solution/mt.exe"
+      - "C:/Program Files (x86)/PC Connectivity Solution/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/mt.com"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/mt.exe"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/mt"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/mt"
+      - "C:/mingw64/bin/mt.com"
+      - "C:/mingw64/bin/mt.exe"
+      - "C:/mingw64/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/mt.com"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/mt.exe"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/doxygen/bin/mt.com"
+      - "C:/Program Files/doxygen/bin/mt.exe"
+      - "C:/Program Files/doxygen/bin/mt"
+      - "C:/Program Files/Git/bin/mt.com"
+      - "C:/Program Files/Git/bin/mt.exe"
+      - "C:/Program Files/Git/bin/mt"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/mt.com"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/mt.exe"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/mt"
+      - "C:/Program Files (x86)/VTK/bin/mt.com"
+      - "C:/Program Files (x86)/VTK/bin/mt.exe"
+      - "C:/Program Files (x86)/VTK/bin/mt"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/ayman/.dotnet/tools/mt.com"
+      - "C:/Users/ayman/.dotnet/tools/mt.exe"
+      - "C:/Users/ayman/.dotnet/tools/mt"
+      - "C:/Program Files/Faust/bin/mt.com"
+      - "C:/Program Files/Faust/bin/mt.exe"
+      - "C:/Program Files/Faust/bin/mt"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/mt.com"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/mt.exe"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.23+b0019275e for .NET Framework
+      Build started 3/5/2026 2:22:09 PM.
+      
+      Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/"
+      - "C:/Program Files (x86)/vtkexample_vr1/sbin/"
+      - "C:/Program Files (x86)/vtkexample_vr1/"
+    searched_directories:
+      - "C:/Program Files (x86)/PC Connectivity Solution/rc.com"
+      - "C:/Program Files (x86)/PC Connectivity Solution/rc.exe"
+      - "C:/Program Files (x86)/PC Connectivity Solution/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2024b/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/rc.com"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/rc.exe"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/rc"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/rc"
+      - "C:/mingw64/bin/rc.com"
+      - "C:/mingw64/bin/rc.exe"
+      - "C:/mingw64/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/rc.com"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/rc.exe"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/doxygen/bin/rc.com"
+      - "C:/Program Files/doxygen/bin/rc.exe"
+      - "C:/Program Files/doxygen/bin/rc"
+      - "C:/Program Files/Git/bin/rc.com"
+      - "C:/Program Files/Git/bin/rc.exe"
+      - "C:/Program Files/Git/bin/rc"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/rc.com"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/rc.exe"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/rc"
+      - "C:/Program Files (x86)/VTK/bin/rc.com"
+      - "C:/Program Files (x86)/VTK/bin/rc.exe"
+      - "C:/Program Files (x86)/VTK/bin/rc"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/ayman/.dotnet/tools/rc.com"
+      - "C:/Users/ayman/.dotnet/tools/rc.exe"
+      - "C:/Users/ayman/.dotnet/tools/rc"
+      - "C:/Program Files/Faust/bin/rc.com"
+      - "C:/Program Files/Faust/bin/rc.exe"
+      - "C:/Program Files/Faust/bin/rc"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/rc.com"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/rc.exe"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/rc.com"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/rc.exe"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/rc"
+      - "C:/Program Files (x86)/vtkexample_vr1/sbin/rc.com"
+      - "C:/Program Files (x86)/vtkexample_vr1/sbin/rc.exe"
+      - "C:/Program Files (x86)/vtkexample_vr1/sbin/rc"
+      - "C:/Program Files (x86)/vtkexample_vr1/rc.com"
+      - "C:/Program Files (x86)/vtkexample_vr1/rc.exe"
+      - "C:/Program Files (x86)/vtkexample_vr1/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vtkexample_vr1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/vtkexample_vr1"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-fx449w"
+      binary: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-fx449w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-fx449w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e17bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/5/2026 2:22:10 PM.
+        
+        Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-fx449w\\cmTC_e17bd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-fx449w\\Debug\\".
+          Creating directory "cmTC_e17bd.dir\\Debug\\cmTC_e17bd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e17bd.dir\\Debug\\cmTC_e17bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e17bd.dir\\Debug\\cmTC_e17bd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e17bd.dir\\Debug\\\\" /Fd"cmTC_e17bd.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35216 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e17bd.dir\\Debug\\\\" /Fd"cmTC_e17bd.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-fx449w\\Debug\\cmTC_e17bd.exe" /INCREMENTAL /ILK:"cmTC_e17bd.dir\\Debug\\cmTC_e17bd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-fx449w/Debug/cmTC_e17bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-fx449w/Debug/cmTC_e17bd.lib" /MACHINE:X64  /machine:x64 cmTC_e17bd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e17bd.vcxproj -> C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-fx449w\\Debug\\cmTC_e17bd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e17bd.dir\\Debug\\cmTC_e17bd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e17bd.dir\\Debug\\cmTC_e17bd.tlog\\cmTC_e17bd.lastbuildstate".
+        Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-fx449w\\cmTC_e17bd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35216.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-51p03d"
+      binary: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-51p03d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-51p03d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e22f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/5/2026 2:22:11 PM.
+        
+        Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-51p03d\\cmTC_e22f0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-51p03d\\Debug\\".
+          Creating directory "cmTC_e22f0.dir\\Debug\\cmTC_e22f0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e22f0.dir\\Debug\\cmTC_e22f0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e22f0.dir\\Debug\\cmTC_e22f0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e22f0.dir\\Debug\\\\" /Fd"cmTC_e22f0.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35216 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e22f0.dir\\Debug\\\\" /Fd"cmTC_e22f0.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-51p03d\\Debug\\cmTC_e22f0.exe" /INCREMENTAL /ILK:"cmTC_e22f0.dir\\Debug\\cmTC_e22f0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-51p03d/Debug/cmTC_e22f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-51p03d/Debug/cmTC_e22f0.lib" /MACHINE:X64  /machine:x64 cmTC_e22f0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e22f0.vcxproj -> C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-51p03d\\Debug\\cmTC_e22f0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e22f0.dir\\Debug\\cmTC_e22f0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e22f0.dir\\Debug\\cmTC_e22f0.tlog\\cmTC_e22f0.lastbuildstate".
+        Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-51p03d\\cmTC_e22f0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35216.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTK-vtk-module-find-packages.cmake:121 (find_package)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake:171 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-uke9rg"
+      binary: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-uke9rg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/99;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/4.3;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-uke9rg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a6448.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/5/2026 2:22:13 PM.
+        
+        Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\cmTC_a6448.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\Debug\\".
+          Creating directory "cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a6448.dir\\Debug\\cmTC_a6448.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a6448.dir\\Debug\\\\" /Fd"cmTC_a6448.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35216 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a6448.dir\\Debug\\\\" /Fd"cmTC_a6448.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\src.c"
+          src.c
+        C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\cmTC_a6448.vcxproj]
+        Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\cmTC_a6448.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\cmTC_a6448.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-uke9rg\\cmTC_a6448.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTK-vtk-module-find-packages.cmake:121 (find_package)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake:171 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-8w7bgu"
+      binary: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-8w7bgu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/99;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/4.3;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-8w7bgu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d49d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/5/2026 2:22:13 PM.
+        
+        Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\cmTC_d49d2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\Debug\\".
+          Creating directory "cmTC_d49d2.dir\\Debug\\cmTC_d49d2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d49d2.dir\\Debug\\cmTC_d49d2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d49d2.dir\\Debug\\cmTC_d49d2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d49d2.dir\\Debug\\\\" /Fd"cmTC_d49d2.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35216 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d49d2.dir\\Debug\\\\" /Fd"cmTC_d49d2.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\Debug\\cmTC_d49d2.exe" /INCREMENTAL /ILK:"cmTC_d49d2.dir\\Debug\\cmTC_d49d2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-8w7bgu/Debug/cmTC_d49d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-8w7bgu/Debug/cmTC_d49d2.lib" /MACHINE:X64  /machine:x64 cmTC_d49d2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\cmTC_d49d2.vcxproj]
+        Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\cmTC_d49d2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\cmTC_d49d2.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-8w7bgu\\cmTC_d49d2.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTK-vtk-module-find-packages.cmake:121 (find_package)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake:171 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-arsnci"
+      binary: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-arsnci"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/99;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/patches/4.3;C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-arsnci'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c8013.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.23+b0019275e for .NET Framework
+        Build started 3/5/2026 2:22:14 PM.
+        
+        Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\cmTC_c8013.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\Debug\\".
+          Creating directory "cmTC_c8013.dir\\Debug\\cmTC_c8013.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c8013.dir\\Debug\\cmTC_c8013.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c8013.dir\\Debug\\cmTC_c8013.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c8013.dir\\Debug\\\\" /Fd"cmTC_c8013.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35216 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c8013.dir\\Debug\\\\" /Fd"cmTC_c8013.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\Debug\\cmTC_c8013.exe" /INCREMENTAL /ILK:"cmTC_c8013.dir\\Debug\\cmTC_c8013.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-arsnci/Debug/cmTC_c8013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/CMakeScratch/TryCompile-arsnci/Debug/cmTC_c8013.lib" /MACHINE:X64  /machine:x64 cmTC_c8013.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\cmTC_c8013.vcxproj]
+        Done Building Project "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\cmTC_c8013.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\cmTC_c8013.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\ayman\\Downloads\\EEEE2076-master\\EEEE2076-master\\individual\\Worksheet7\\VTK_VR_Demo\\bulid\\CMakeFiles\\CMakeScratch\\TryCompile-arsnci\\cmTC_c8013.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/FindOpenVR.cmake:25 (find_path)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTK-vtk-module-find-packages.cmake:215 (find_package)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake:171 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "path"
+    variable: "OpenVR_INCLUDE_DIR"
+    description: "OpenVR include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openvr.h"
+    candidate_directories:
+      - "C:/Program Files (x86)/VTK/include/openvr/"
+      - "C:/Program Files (x86)/VTK/include/headers/"
+      - "C:/Program Files (x86)/VTK/include/public/headers/"
+      - "C:/Program Files (x86)/VTK/include/steam/"
+      - "C:/Program Files (x86)/VTK/include/public/steam/"
+      - "C:/Program Files (x86)/VTK/include/"
+      - "C:/Program Files (x86)/VTK/openvr/"
+      - "C:/Program Files (x86)/VTK/headers/"
+      - "C:/Program Files (x86)/VTK/public/headers/"
+      - "C:/Program Files (x86)/VTK/steam/"
+      - "C:/Program Files (x86)/VTK/public/steam/"
+      - "C:/Program Files (x86)/VTK/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/openvr/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/headers/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/public/headers/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/steam/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/public/steam/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/openvr/"
+      - "C:/Windows/System32/headers/"
+      - "C:/Windows/System32/public/headers/"
+      - "C:/Windows/System32/steam/"
+      - "C:/Windows/System32/public/steam/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/openvr/"
+      - "C:/Windows/headers/"
+      - "C:/Windows/public/headers/"
+      - "C:/Windows/steam/"
+      - "C:/Windows/public/steam/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/openvr/"
+      - "C:/Windows/System32/wbem/headers/"
+      - "C:/Windows/System32/wbem/public/headers/"
+      - "C:/Windows/System32/wbem/steam/"
+      - "C:/Windows/System32/wbem/public/steam/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openvr/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/headers/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/public/headers/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/steam/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/public/steam/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/openvr/"
+      - "C:/Windows/System32/OpenSSH/headers/"
+      - "C:/Windows/System32/OpenSSH/public/headers/"
+      - "C:/Windows/System32/OpenSSH/steam/"
+      - "C:/Windows/System32/OpenSSH/public/steam/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/openvr/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/headers/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/public/headers/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/steam/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/public/steam/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/openvr/"
+      - "C:/Program Files/MATLAB/R2024b/bin/headers/"
+      - "C:/Program Files/MATLAB/R2024b/bin/public/headers/"
+      - "C:/Program Files/MATLAB/R2024b/bin/steam/"
+      - "C:/Program Files/MATLAB/R2024b/bin/public/steam/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/openvr/"
+      - "C:/Program Files/dotnet/headers/"
+      - "C:/Program Files/dotnet/public/headers/"
+      - "C:/Program Files/dotnet/steam/"
+      - "C:/Program Files/dotnet/public/steam/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/openvr/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/headers/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/public/headers/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/steam/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/public/steam/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/openvr/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/headers/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/public/headers/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/steam/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/public/steam/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/openvr/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/headers/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/public/headers/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/steam/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/public/steam/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/openvr/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/headers/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/public/headers/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/steam/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/public/steam/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/openvr/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/headers/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/public/headers/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/steam/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/public/steam/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/openvr/"
+      - "C:/mingw64/bin/headers/"
+      - "C:/mingw64/bin/public/headers/"
+      - "C:/mingw64/bin/steam/"
+      - "C:/mingw64/bin/public/steam/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/openvr/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/headers/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/public/headers/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/steam/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/public/steam/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/openvr/"
+      - "C:/Program Files/Git/cmd/headers/"
+      - "C:/Program Files/Git/cmd/public/headers/"
+      - "C:/Program Files/Git/cmd/steam/"
+      - "C:/Program Files/Git/cmd/public/steam/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/openvr/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/headers/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/public/headers/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/steam/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/public/steam/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/openvr/"
+      - "C:/Program Files/CMake/bin/headers/"
+      - "C:/Program Files/CMake/bin/public/headers/"
+      - "C:/Program Files/CMake/bin/steam/"
+      - "C:/Program Files/CMake/bin/public/steam/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/openvr/"
+      - "C:/Program Files/doxygen/bin/headers/"
+      - "C:/Program Files/doxygen/bin/public/headers/"
+      - "C:/Program Files/doxygen/bin/steam/"
+      - "C:/Program Files/doxygen/bin/public/steam/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/openvr/"
+      - "C:/Program Files/Git/bin/headers/"
+      - "C:/Program Files/Git/bin/public/headers/"
+      - "C:/Program Files/Git/bin/steam/"
+      - "C:/Program Files/Git/bin/public/steam/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/openvr/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/headers/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/public/headers/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/steam/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/public/steam/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/openvr/"
+      - "C:/Program Files (x86)/VTK/bin/headers/"
+      - "C:/Program Files (x86)/VTK/bin/public/headers/"
+      - "C:/Program Files (x86)/VTK/bin/steam/"
+      - "C:/Program Files (x86)/VTK/bin/public/steam/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/openvr/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/headers/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/public/headers/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/steam/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/public/steam/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/openvr/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/headers/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/public/headers/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/steam/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/public/steam/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/openvr/"
+      - "C:/Users/ayman/.dotnet/tools/headers/"
+      - "C:/Users/ayman/.dotnet/tools/public/headers/"
+      - "C:/Users/ayman/.dotnet/tools/steam/"
+      - "C:/Users/ayman/.dotnet/tools/public/steam/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/openvr/"
+      - "C:/Program Files/Faust/bin/headers/"
+      - "C:/Program Files/Faust/bin/public/headers/"
+      - "C:/Program Files/Faust/bin/steam/"
+      - "C:/Program Files/Faust/bin/public/steam/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/openvr/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/headers/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/public/headers/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/steam/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/public/steam/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/openvr/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/headers/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/public/headers/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/steam/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/public/steam/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+      - "C:/Program Files/include/openvr/"
+      - "C:/Program Files/include/headers/"
+      - "C:/Program Files/include/public/headers/"
+      - "C:/Program Files/include/steam/"
+      - "C:/Program Files/include/public/steam/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/openvr/"
+      - "C:/Program Files/headers/"
+      - "C:/Program Files/public/headers/"
+      - "C:/Program Files/steam/"
+      - "C:/Program Files/public/steam/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/openvr/"
+      - "C:/Program Files (x86)/include/headers/"
+      - "C:/Program Files (x86)/include/public/headers/"
+      - "C:/Program Files (x86)/include/steam/"
+      - "C:/Program Files (x86)/include/public/steam/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/openvr/"
+      - "C:/Program Files (x86)/headers/"
+      - "C:/Program Files (x86)/public/headers/"
+      - "C:/Program Files (x86)/steam/"
+      - "C:/Program Files (x86)/public/steam/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/openvr/"
+      - "C:/Program Files/CMake/include/headers/"
+      - "C:/Program Files/CMake/include/public/headers/"
+      - "C:/Program Files/CMake/include/steam/"
+      - "C:/Program Files/CMake/include/public/steam/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/openvr/"
+      - "C:/Program Files/CMake/headers/"
+      - "C:/Program Files/CMake/public/headers/"
+      - "C:/Program Files/CMake/steam/"
+      - "C:/Program Files/CMake/public/steam/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/openvr/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/headers/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/public/headers/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/steam/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/public/steam/"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/"
+      - "C:/Program Files (x86)/vtkexample_vr1/openvr/"
+      - "C:/Program Files (x86)/vtkexample_vr1/headers/"
+      - "C:/Program Files (x86)/vtkexample_vr1/public/headers/"
+      - "C:/Program Files (x86)/vtkexample_vr1/steam/"
+      - "C:/Program Files (x86)/vtkexample_vr1/public/steam/"
+      - "C:/Program Files (x86)/vtkexample_vr1/"
+    searched_directories:
+      - "C:/Program Files (x86)/VTK/include/openvr/openvr.h"
+      - "C:/Program Files (x86)/VTK/include/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/include/public/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/include/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/include/public/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/include/openvr.h"
+      - "C:/Program Files (x86)/VTK/openvr/openvr.h"
+      - "C:/Program Files (x86)/VTK/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/public/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/public/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/openvr/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/headers/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/public/headers/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/steam/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/public/steam/openvr.h"
+      - "C:/Program Files (x86)/PC Connectivity Solution/openvr.h"
+      - "C:/Windows/System32/openvr/openvr.h"
+      - "C:/Windows/System32/headers/openvr.h"
+      - "C:/Windows/System32/public/headers/openvr.h"
+      - "C:/Windows/System32/steam/openvr.h"
+      - "C:/Windows/System32/public/steam/openvr.h"
+      - "C:/Windows/System32/openvr.h"
+      - "C:/Windows/openvr/openvr.h"
+      - "C:/Windows/headers/openvr.h"
+      - "C:/Windows/public/headers/openvr.h"
+      - "C:/Windows/steam/openvr.h"
+      - "C:/Windows/public/steam/openvr.h"
+      - "C:/Windows/openvr.h"
+      - "C:/Windows/System32/wbem/openvr/openvr.h"
+      - "C:/Windows/System32/wbem/headers/openvr.h"
+      - "C:/Windows/System32/wbem/public/headers/openvr.h"
+      - "C:/Windows/System32/wbem/steam/openvr.h"
+      - "C:/Windows/System32/wbem/public/steam/openvr.h"
+      - "C:/Windows/System32/wbem/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openvr/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/headers/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/public/headers/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/steam/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/public/steam/openvr.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/openvr.h"
+      - "C:/Windows/System32/OpenSSH/openvr/openvr.h"
+      - "C:/Windows/System32/OpenSSH/headers/openvr.h"
+      - "C:/Windows/System32/OpenSSH/public/headers/openvr.h"
+      - "C:/Windows/System32/OpenSSH/steam/openvr.h"
+      - "C:/Windows/System32/OpenSSH/public/steam/openvr.h"
+      - "C:/Windows/System32/OpenSSH/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/openvr/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/headers/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/public/headers/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/steam/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/public/steam/openvr.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/openvr/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/headers/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/public/headers/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/steam/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/public/steam/openvr.h"
+      - "C:/Program Files/MATLAB/R2024b/bin/openvr.h"
+      - "C:/Program Files/dotnet/openvr/openvr.h"
+      - "C:/Program Files/dotnet/headers/openvr.h"
+      - "C:/Program Files/dotnet/public/headers/openvr.h"
+      - "C:/Program Files/dotnet/steam/openvr.h"
+      - "C:/Program Files/dotnet/public/steam/openvr.h"
+      - "C:/Program Files/dotnet/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/openvr/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/headers/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/public/headers/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/steam/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/public/steam/openvr.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/openvr/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/headers/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/public/headers/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/steam/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/public/steam/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/openvr/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/headers/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/public/headers/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/steam/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/public/steam/openvr.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/openvr/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/headers/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/public/headers/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/steam/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/public/steam/openvr.h"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/openvr/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/public/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/public/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/openvr.h"
+      - "C:/mingw64/bin/openvr/openvr.h"
+      - "C:/mingw64/bin/headers/openvr.h"
+      - "C:/mingw64/bin/public/headers/openvr.h"
+      - "C:/mingw64/bin/steam/openvr.h"
+      - "C:/mingw64/bin/public/steam/openvr.h"
+      - "C:/mingw64/bin/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/openvr/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/headers/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/public/headers/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/steam/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/public/steam/openvr.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/openvr.h"
+      - "C:/Program Files/Git/cmd/openvr/openvr.h"
+      - "C:/Program Files/Git/cmd/headers/openvr.h"
+      - "C:/Program Files/Git/cmd/public/headers/openvr.h"
+      - "C:/Program Files/Git/cmd/steam/openvr.h"
+      - "C:/Program Files/Git/cmd/public/steam/openvr.h"
+      - "C:/Program Files/Git/cmd/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/openvr/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/headers/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/public/headers/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/steam/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/public/steam/openvr.h"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/openvr.h"
+      - "C:/Program Files/CMake/bin/openvr/openvr.h"
+      - "C:/Program Files/CMake/bin/headers/openvr.h"
+      - "C:/Program Files/CMake/bin/public/headers/openvr.h"
+      - "C:/Program Files/CMake/bin/steam/openvr.h"
+      - "C:/Program Files/CMake/bin/public/steam/openvr.h"
+      - "C:/Program Files/CMake/bin/openvr.h"
+      - "C:/Program Files/doxygen/bin/openvr/openvr.h"
+      - "C:/Program Files/doxygen/bin/headers/openvr.h"
+      - "C:/Program Files/doxygen/bin/public/headers/openvr.h"
+      - "C:/Program Files/doxygen/bin/steam/openvr.h"
+      - "C:/Program Files/doxygen/bin/public/steam/openvr.h"
+      - "C:/Program Files/doxygen/bin/openvr.h"
+      - "C:/Program Files/Git/bin/openvr/openvr.h"
+      - "C:/Program Files/Git/bin/headers/openvr.h"
+      - "C:/Program Files/Git/bin/public/headers/openvr.h"
+      - "C:/Program Files/Git/bin/steam/openvr.h"
+      - "C:/Program Files/Git/bin/public/steam/openvr.h"
+      - "C:/Program Files/Git/bin/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/openvr/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/headers/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/public/headers/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/steam/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/public/steam/openvr.h"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/openvr/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/public/headers/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/public/steam/openvr.h"
+      - "C:/Program Files (x86)/VTK/bin/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/openvr/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/public/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/public/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/openvr/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/public/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/public/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/openvr/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/headers/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/public/headers/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/steam/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/public/steam/openvr.h"
+      - "C:/Users/ayman/.dotnet/tools/openvr.h"
+      - "C:/Program Files/Faust/bin/openvr/openvr.h"
+      - "C:/Program Files/Faust/bin/headers/openvr.h"
+      - "C:/Program Files/Faust/bin/public/headers/openvr.h"
+      - "C:/Program Files/Faust/bin/steam/openvr.h"
+      - "C:/Program Files/Faust/bin/public/steam/openvr.h"
+      - "C:/Program Files/Faust/bin/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/openvr/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/public/headers/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/public/steam/openvr.h"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/openvr/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/headers/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/public/headers/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/steam/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/public/steam/openvr.h"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/openvr.h"
+      - "C:/Program Files/include/openvr/openvr.h"
+      - "C:/Program Files/include/headers/openvr.h"
+      - "C:/Program Files/include/public/headers/openvr.h"
+      - "C:/Program Files/include/steam/openvr.h"
+      - "C:/Program Files/include/public/steam/openvr.h"
+      - "C:/Program Files/include/openvr.h"
+      - "C:/Program Files/openvr/openvr.h"
+      - "C:/Program Files/headers/openvr.h"
+      - "C:/Program Files/public/headers/openvr.h"
+      - "C:/Program Files/steam/openvr.h"
+      - "C:/Program Files/public/steam/openvr.h"
+      - "C:/Program Files/openvr.h"
+      - "C:/Program Files (x86)/include/openvr/openvr.h"
+      - "C:/Program Files (x86)/include/headers/openvr.h"
+      - "C:/Program Files (x86)/include/public/headers/openvr.h"
+      - "C:/Program Files (x86)/include/steam/openvr.h"
+      - "C:/Program Files (x86)/include/public/steam/openvr.h"
+      - "C:/Program Files (x86)/include/openvr.h"
+      - "C:/Program Files (x86)/openvr/openvr.h"
+      - "C:/Program Files (x86)/headers/openvr.h"
+      - "C:/Program Files (x86)/public/headers/openvr.h"
+      - "C:/Program Files (x86)/steam/openvr.h"
+      - "C:/Program Files (x86)/public/steam/openvr.h"
+      - "C:/Program Files (x86)/openvr.h"
+      - "C:/Program Files/CMake/include/openvr/openvr.h"
+      - "C:/Program Files/CMake/include/headers/openvr.h"
+      - "C:/Program Files/CMake/include/public/headers/openvr.h"
+      - "C:/Program Files/CMake/include/steam/openvr.h"
+      - "C:/Program Files/CMake/include/public/steam/openvr.h"
+      - "C:/Program Files/CMake/include/openvr.h"
+      - "C:/Program Files/CMake/openvr/openvr.h"
+      - "C:/Program Files/CMake/headers/openvr.h"
+      - "C:/Program Files/CMake/public/headers/openvr.h"
+      - "C:/Program Files/CMake/steam/openvr.h"
+      - "C:/Program Files/CMake/public/steam/openvr.h"
+      - "C:/Program Files/CMake/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/openvr/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/headers/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/public/headers/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/steam/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/public/steam/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/include/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/openvr/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/headers/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/public/headers/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/steam/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/public/steam/openvr.h"
+      - "C:/Program Files (x86)/vtkexample_vr1/openvr.h"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Program Files (x86)/VTK"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vtkexample_vr1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/vtkexample_vr1"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/FindOpenVR.cmake:37 (find_library)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTK-vtk-module-find-packages.cmake:215 (find_package)"
+      - "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake:171 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "OpenVR_LIBRARY"
+    description: "OpenVR API library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openvr_api64"
+      - "openvr_api"
+    candidate_directories:
+      - "C:/Program Files (x86)/VTK/lib/win64/"
+      - "C:/Program Files (x86)/VTK/lib/bin/win64/"
+      - "C:/Program Files (x86)/VTK/lib/"
+      - "C:/Program Files (x86)/VTK/win64/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/bin/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/win64/"
+      - "C:/Windows/System32/bin/win64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/win64/"
+      - "C:/Windows/bin/win64/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/win64/"
+      - "C:/Windows/System32/wbem/bin/win64/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/win64/"
+      - "C:/Windows/System32/OpenSSH/bin/win64/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bin/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/win64/"
+      - "C:/Program Files/dotnet/bin/win64/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/win64/"
+      - "C:/mingw64/bin/bin/win64/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bin/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/win64/"
+      - "C:/Program Files/Git/cmd/bin/win64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/bin/bin/win64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/win64/"
+      - "C:/Program Files/doxygen/bin/bin/win64/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/win64/"
+      - "C:/Program Files/Git/bin/bin/win64/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/win64/"
+      - "C:/Users/ayman/.dotnet/tools/bin/win64/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/win64/"
+      - "C:/Program Files/Faust/bin/bin/win64/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/bin/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+      - "C:/Program Files/lib/win64/"
+      - "C:/Program Files/lib/bin/win64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/win64/"
+      - "C:/Program Files/bin/win64/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/win64/"
+      - "C:/Program Files (x86)/lib/bin/win64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/win64/"
+      - "C:/Program Files (x86)/bin/win64/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/win64/"
+      - "C:/Program Files/CMake/lib/bin/win64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/win64/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/"
+      - "C:/Program Files (x86)/vtkexample_vr1/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/"
+      - "/bin/win64/"
+      - "/bin/bin/win64/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/VTK/lib/win64/"
+      - "C:/Program Files (x86)/VTK/lib/bin/win64/"
+      - "C:/Program Files (x86)/VTK/lib/"
+      - "C:/Program Files (x86)/VTK/win64/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/bin/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/win64/"
+      - "C:/Windows/System32/bin/win64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/win64/"
+      - "C:/Windows/bin/win64/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/win64/"
+      - "C:/Windows/System32/wbem/bin/win64/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/win64/"
+      - "C:/Windows/System32/OpenSSH/bin/win64/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bin/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/win64/"
+      - "C:/Program Files/dotnet/bin/win64/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/win64/"
+      - "C:/mingw64/bin/bin/win64/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bin/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/win64/"
+      - "C:/Program Files/Git/cmd/bin/win64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/bin/bin/win64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/win64/"
+      - "C:/Program Files/doxygen/bin/bin/win64/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/win64/"
+      - "C:/Program Files/Git/bin/bin/win64/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/win64/"
+      - "C:/Users/ayman/.dotnet/tools/bin/win64/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/win64/"
+      - "C:/Program Files/Faust/bin/bin/win64/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/bin/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+      - "C:/Program Files/lib/win64/"
+      - "C:/Program Files/lib/bin/win64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/win64/"
+      - "C:/Program Files/bin/win64/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/win64/"
+      - "C:/Program Files (x86)/lib/bin/win64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/win64/"
+      - "C:/Program Files (x86)/bin/win64/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/win64/"
+      - "C:/Program Files/CMake/lib/bin/win64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/win64/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/"
+      - "C:/Program Files (x86)/vtkexample_vr1/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/"
+      - "/bin/win64/"
+      - "/bin/bin/win64/"
+      - "/bin/"
+      - "C:/Program Files (x86)/VTK/lib/win64/"
+      - "C:/Program Files (x86)/VTK/lib/bin/win64/"
+      - "C:/Program Files (x86)/VTK/lib/"
+      - "C:/Program Files (x86)/VTK/win64/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/bin/win64/"
+      - "C:/Program Files (x86)/PC Connectivity Solution/"
+      - "C:/Windows/System32/win64/"
+      - "C:/Windows/System32/bin/win64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/win64/"
+      - "C:/Windows/bin/win64/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/win64/"
+      - "C:/Windows/System32/wbem/bin/win64/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/win64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/win64/"
+      - "C:/Windows/System32/OpenSSH/bin/win64/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bin/win64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/MATLAB/R2024b/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/bin/win64/"
+      - "C:/Program Files/MATLAB/R2024b/bin/"
+      - "C:/Program Files/dotnet/win64/"
+      - "C:/Program Files/dotnet/bin/win64/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/win64/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/bin/win64/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/bin/win64/"
+      - "C:/Program Files/CodeBlocks/MinGW/bin/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Muse Hub/lib/"
+      - "C:/mingw64/bin/win64/"
+      - "C:/mingw64/bin/bin/win64/"
+      - "C:/mingw64/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bin/win64/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Git/cmd/win64/"
+      - "C:/Program Files/Git/cmd/bin/win64/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/bin/win64/"
+      - "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/bin/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/bin/bin/win64/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/doxygen/bin/win64/"
+      - "C:/Program Files/doxygen/bin/bin/win64/"
+      - "C:/Program Files/doxygen/bin/"
+      - "C:/Program Files/Git/bin/win64/"
+      - "C:/Program Files/Git/bin/bin/win64/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/bin/win64/"
+      - "C:/Qt/6.10.2/msvc2022_64/bin/"
+      - "C:/Program Files (x86)/VTK/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/bin/win64/"
+      - "C:/Program Files (x86)/VTK/bin/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/ayman/.dotnet/tools/win64/"
+      - "C:/Users/ayman/.dotnet/tools/bin/win64/"
+      - "C:/Users/ayman/.dotnet/tools/"
+      - "C:/Program Files/Faust/bin/win64/"
+      - "C:/Program Files/Faust/bin/bin/win64/"
+      - "C:/Program Files/Faust/bin/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/bin/win64/"
+      - "C:/Users/ayman/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/bin/win64/"
+      - "C:/intelFPGA_lite/22.1std/modelsim_ase/win32aloem/"
+      - "C:/Program Files/lib/win64/"
+      - "C:/Program Files/lib/bin/win64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/win64/"
+      - "C:/Program Files/bin/win64/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/win64/"
+      - "C:/Program Files (x86)/lib/bin/win64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/win64/"
+      - "C:/Program Files (x86)/bin/win64/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/win64/"
+      - "C:/Program Files/CMake/lib/bin/win64/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/win64/"
+      - "C:/Program Files/CMake/bin/win64/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/lib/"
+      - "C:/Program Files (x86)/vtkexample_vr1/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/bin/win64/"
+      - "C:/Program Files (x86)/vtkexample_vr1/bin/"
+      - "/bin/win64/"
+      - "/bin/bin/win64/"
+      - "/bin/"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/Program Files (x86)/VTK"
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vtkexample_vr1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/vtkexample_vr1"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/vtkexample_vr1/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:10 (find_package)"
+    name: "VTK"
+    components:
+      -
+        name: "CommonColor"
+        required: true
+        found: true
+      -
+        name: "CommonCore"
+        required: true
+        found: true
+      -
+        name: "FiltersSources"
+        required: true
+        found: true
+      -
+        name: "InteractionStyle"
+        required: true
+        found: true
+      -
+        name: "RenderingContextOpenGL2"
+        required: true
+        found: true
+      -
+        name: "RenderingCore"
+        required: true
+        found: true
+      -
+        name: "RenderingFreeType"
+        required: true
+        found: true
+      -
+        name: "RenderingGL2PSOpenGL2"
+        required: true
+        found: true
+      -
+        name: "RenderingOpenGL2"
+        required: true
+        found: true
+      -
+        name: "RenderingOpenVR"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "VTKConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "vtk-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "VTK"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/pkgRedirects/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ayman/Downloads/EEEE2076-master/EEEE2076-master/individual/Worksheet7/VTK_VR_Demo/bulid/CMakeFiles/pkgRedirects/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/PC Connectivity Solution/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/PC Connectivity Solution/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/MATLAB/R2024b/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CodeBlocks/MinGW/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CodeBlocks/MinGW/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ayman/AppData/Local/Muse Hub/lib/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ayman/AppData/Local/Muse Hub/lib/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ayman/Documents/GitHub/Worksheet3_2025__20694479/adder_dynamic/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/doxygen/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/doxygen/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.10.2/msvc2022_64/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.10.2/msvc2022_64/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VTK/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VTK/vtk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/VTKConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Program Files (x86)/VTK/lib/cmake/vtk-9.6/vtk-config.cmake"
+      mode: "config"
+      version: "9.6.0"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\PC Connectivity Solution\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\MATLAB\\R2024b\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\CodeBlocks\\MinGW\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\mingw64\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\ayman\\Documents\\GitHub\\Worksheet3_2025__20694479\\adder_dynamic\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\doxygen\\bin"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\Qt\\6.10.2\\msvc2022_64\\bin"
+        - "C:\\Program Files (x86)\\VTK\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ayman\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\ayman\\.dotnet\\tools"
+        - "C:\\Program Files\\Faust\\bin"
+        - "C:\\Users\\ayman\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\intelFPGA_lite\\22.1std\\modelsim_ase\\win32aloem"
+        - "C:\\Users\\ayman\\AppData\\Local\\Muse Hub\\lib"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/vtkexample_vr1"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/vtkexample_vr1"
+...
