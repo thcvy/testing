@@ -1,0 +1,40 @@
+# Build artefacts
+build/
+Build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries / object files
+*.o
+*.obj
+*.so
+*.dll
+*.exp
+*.lib
+*.exe
+*.com
+*.class
+*.pdb
+*.rcc
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.autosave
+*.suo
+*.vcxproj*
+*.sln
+
+# Generated docs (when built locally - the live copy lives on gh-pages)
+docs/html/
+docs/latex/
+Worksheet5/html/
+Worksheet5/latex/
+
+# Misc
+VR_support
+.DS_Store

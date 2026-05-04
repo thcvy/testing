@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FormulaVRviewer</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="centralLayout">
+    <property name="spacing">
+     <number>4</number>
+    </property>
+    <property name="leftMargin">
+     <number>4</number>
+    </property>
+    <property name="topMargin">
+     <number>4</number>
+    </property>
+    <property name="rightMargin">
+     <number>4</number>
+    </property>
+    <property name="bottomMargin">
+     <number>4</number>
+    </property>
+    <item>
+     <widget class="QSplitter" name="mainSplitter">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <property name="childrenCollapsible">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="treeContainer" native="true">
+       <layout class="QVBoxLayout" name="treeLayout">
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="labelTree">
+          <property name="text">
+           <string>Model Tree</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTreeView" name="treeView">
+          <property name="minimumSize">
+           <size>
+            <width>220</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::ActionsContextMenu</enum>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>true</bool>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SelectionMode::SingleSelection</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QVTKOpenGLNativeWidget" name="widget" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>3</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QWidget" name="vrPanel" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>240</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>320</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <layout class="QVBoxLayout" name="vrPanelLayout">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="labelVR">
+          <property name="text">
+           <string>VR Controls</string>
+          </property>
+          <property name="font">
+           <font>
+            <bold>true</bold>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupVRSession">
+          <property name="title">
+           <string>VR Session</string>
+          </property>
+          <layout class="QGridLayout" name="gridVRSession">
+           <item row="0" column="0">
+            <widget class="QPushButton" name="btnStartVR">
+             <property name="text">
+              <string>Start VR</string>
+             </property>
+             <property name="toolTip">
+              <string>Start the VR rendering thread</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="btnStopVR">
+             <property name="text">
+              <string>Stop VR</string>
+             </property>
+             <property name="toolTip">
+              <string>Stop the VR rendering thread</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupAnimation">
+          <property name="title">
+           <string>Animation</string>
+          </property>
+          <layout class="QGridLayout" name="gridAnimation">
+           <item row="0" column="0">
+            <widget class="QLabel" name="labelRotateX">
+             <property name="text">
+              <string>Rotate X</string>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>60</width>
+               <height>0</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QSlider" name="sliderRotateX">
+             <property name="minimum">
+              <number>-50</number>
+             </property>
+             <property name="maximum">
+              <number>50</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="tickPosition">
+              <enum>QSlider::TickPosition::TicksBelow</enum>
+             </property>
+             <property name="tickInterval">
+              <number>10</number>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="labelRotateXValue">
+             <property name="text">
+              <string>0.0</string>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>34</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="labelRotateY">
+             <property name="text">
+              <string>Rotate Y</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QSlider" name="sliderRotateY">
+             <property name="minimum">
+              <number>-50</number>
+             </property>
+             <property name="maximum">
+              <number>50</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="tickPosition">
+              <enum>QSlider::TickPosition::TicksBelow</enum>
+             </property>
+             <property name="tickInterval">
+              <number>10</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="labelRotateYValue">
+             <property name="text">
+              <string>0.0</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="labelRotateZ">
+             <property name="text">
+              <string>Rotate Z</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QSlider" name="sliderRotateZ">
+             <property name="minimum">
+              <number>-50</number>
+             </property>
+             <property name="maximum">
+              <number>50</number>
+             </property>
+             <property name="value">
+              <number>0</number>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Orientation::Horizontal</enum>
+             </property>
+             <property name="tickPosition">
+              <enum>QSlider::TickPosition::TicksBelow</enum>
+             </property>
+             <property name="tickInterval">
+              <number>10</number>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="labelRotateZValue">
+             <property name="text">
+              <string>0.0</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" colspan="3">
+            <widget class="QPushButton" name="btnToggleSpin">
+             <property name="text">
+              <string>Toggle Spin</string>
+             </property>
+             <property name="toolTip">
+              <string>Pause / resume continuous rotation</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0" colspan="3">
+            <widget class="QPushButton" name="btnResetView">
+             <property name="text">
+              <string>Reset View</string>
+             </property>
+             <property name="toolTip">
+              <string>Reset rotation and orientation in VR</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupEnvironment">
+          <property name="title">
+           <string>VR Environment</string>
+          </property>
+          <layout class="QVBoxLayout" name="envLayout">
+           <item>
+            <widget class="QPushButton" name="btnToggleFloor">
+             <property name="text">
+              <string>Toggle Floor / Scenery</string>
+             </property>
+             <property name="toolTip">
+              <string>Show / hide the floor and pillars in the VR scene</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupQuickEdit">
+          <property name="title">
+           <string>Quick Edit (Selected Item)</string>
+          </property>
+          <layout class="QVBoxLayout" name="quickEditLayout">
+           <item>
+            <widget class="QPushButton" name="btnQuickColour">
+             <property name="text">
+              <string>Choose Colour...</string>
+             </property>
+             <property name="toolTip">
+              <string>Open a colour picker for the selected item (live in VR)</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QCheckBox" name="checkVisible">
+             <property name="text">
+              <string>Visible</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupScene">
+          <property name="title">
+           <string>Scene</string>
+          </property>
+          <layout class="QVBoxLayout" name="sceneLayout">
+           <item>
+            <widget class="QPushButton" name="btnBackgroundColour">
+             <property name="text">
+              <string>Background Colour...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnLightSettings">
+             <property name="text">
+              <string>Lighting...</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnDarkMode">
+             <property name="text">
+              <string>Dark Mode</string>
+             </property>
+             <property name="checkable">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="vrPanelSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>Main Toolbar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonStyle::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen_File"/>
+   <addaction name="actionOpen_Directory"/>
+   <addaction name="separator"/>
+   <addaction name="actionAdd_Child_Item"/>
+   <addaction name="actionDelete_Item"/>
+   <addaction name="actionItem_Options"/>
+   <addaction name="separator"/>
+   <addaction name="actionStart_VR"/>
+   <addaction name="actionStop_VR"/>
+   <addaction name="actionReset_VR_View"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpen_File"/>
+    <addaction name="actionOpen_Directory"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <addaction name="actionAdd_Child_Item"/>
+    <addaction name="actionDelete_Item"/>
+    <addaction name="separator"/>
+    <addaction name="actionItem_Options"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+    <addaction name="actionBackground_Colour"/>
+    <addaction name="actionLight_Settings"/>
+    <addaction name="actionDark_Mode"/>
+    <addaction name="separator"/>
+    <addaction name="actionReset_Camera"/>
+   </widget>
+   <widget class="QMenu" name="menuVR">
+    <property name="title">
+     <string>&amp;VR</string>
+    </property>
+    <addaction name="actionStart_VR"/>
+    <addaction name="actionStop_VR"/>
+    <addaction name="separator"/>
+    <addaction name="actionReset_VR_View"/>
+    <addaction name="actionToggle_Spin"/>
+    <addaction name="actionToggle_Floor"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuVR"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionOpen_File">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icon/fileopen.png</normaloff>:/Icon/fileopen.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open File...</string>
+   </property>
+   <property name="toolTip">
+    <string>Load an STL into the selected tree item</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionOpen_Directory">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icon/fileopen.png</normaloff>:/Icon/fileopen.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open &amp;Directory...</string>
+   </property>
+   <property name="toolTip">
+    <string>Load every STL in a folder</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+O</string>
+   </property>
+  </action>
+  <action name="actionAdd_Child_Item">
+   <property name="text">
+    <string>&amp;Add Child Item</string>
+   </property>
+   <property name="toolTip">
+    <string>Add a new (empty) child to the selected tree item</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionDelete_Item">
+   <property name="text">
+    <string>&amp;Delete Item</string>
+   </property>
+   <property name="toolTip">
+    <string>Remove the selected item from the tree</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="actionItem_Options">
+   <property name="text">
+    <string>Item &amp;Properties...</string>
+   </property>
+   <property name="toolTip">
+    <string>Edit name, colour, visibility and filters for the selected item</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionBackground_Colour">
+   <property name="text">
+    <string>&amp;Background Colour...</string>
+   </property>
+  </action>
+  <action name="actionLight_Settings">
+   <property name="text">
+    <string>&amp;Lighting...</string>
+   </property>
+  </action>
+  <action name="actionDark_Mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Dark Mode</string>
+   </property>
+  </action>
+  <action name="actionReset_Camera">
+   <property name="text">
+    <string>&amp;Reset Camera</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionStart_VR">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icon/startVR.png</normaloff>:/Icon/startVR.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Start VR</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionStop_VR">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/Icon/stopVR.png</normaloff>:/Icon/stopVR.png</iconset>
+   </property>
+   <property name="text">
+    <string>S&amp;top VR</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="actionReset_VR_View">
+   <property name="text">
+    <string>&amp;Reset VR View</string>
+   </property>
+  </action>
+  <action name="actionToggle_Spin">
+   <property name="text">
+    <string>Toggle &amp;Spin</string>
+   </property>
+  </action>
+  <action name="actionToggle_Floor">
+   <property name="text">
+    <string>Toggle &amp;Floor / Scenery</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVTKOpenGLNativeWidget</class>
+   <extends>QWidget</extends>
+   <header>QVTKOpenGLNativeWidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

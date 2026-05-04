@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icon/fileopen.png</file>
+        <file>Icon/filesave.png</file>
+        <file>Icon/help.png</file>
+        <file>Icon/print.png</file>
+        <file>Icon/startVR (1).png</file>
+        <file>Icon/startVR.png</file>
+        <file>Icon/stopVR.png</file>
+    </qresource>
+</RCC>
